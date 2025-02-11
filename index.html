@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google clone</title>
+    <link rel="stylesheet" href="./Styles/styles.css"/>
 </head>
     <body>
 <!--(Header) Menú de Gmail, Imagenes, submenu de applicaciones de google y foto de perfil-->
+     <header>
         <nav>
             <ul>
-                <li>
+                <!--Foto de perfil-->
+                <li class="Fotoperfil">
+                    <a href="index.html"></a>
+                </li>
+                <!--Submenu de Google Apps-->
+                <li class="GoogleApps">
+                    <a href="index.html"></a>
+                </section>
+                </li>
+                <!--Imagenes-->
+                <li class="GImagenes">
+                    <a href="index.html">
+                        Imagenes
+                    </a>
+                </li> 
+                <!--Gmail-->         
+                <li class="Gmail">
                     <a href="index.html">
                         Gmail
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="index.html">
-                         Imágenes
-                    </a>
-                </li>
-
-                <li>
-                    <a href="index.html">
-                        Submenu
-                     </a>
-                </li>
-                <li>
-                    <a href="index.html">
-                        Foto de perfil
                     </a>
                 </li>        
             </ul>
         </nav>
+    </header>
 <!--Main (Texto de google y botones "Buscar con Google" y "Me siento con suerte")-->
+        <section id= "content">
         <h1>Google</h1>
             <form>
                 <input type="text">
@@ -44,10 +47,12 @@
             <form>
                 <input type="submit" value="Voy a tener suerte">
             </form>
+        </section>
 <!--Footer (publicidad, Negocios, Acerca de, cómo funciona la busqueda, privacidad, condiciones y preferencias)-->
         <footer>
 <!--Footer lado inferior izquierdo-->
-            <h5>
+        <section id="Footer1">
+            <h6>
             <a href="index.html">
                 Publicidad
             </a>
@@ -57,10 +62,14 @@
             <a href="index.html">
                 Acerca de
             </a>
-            <a href="index.html">
+                        <a href="index.html">
                 Cómo funciona la busqueda
             </a>
+            </h6>
+        </section>
 <!--Footer lado inferior derecho-->
+        <section id="Footer2">
+            <h6>
             <a href="index.html">
                 Privacidad
             </a>
@@ -70,7 +79,8 @@
             <a href="index.html">
                 Preferencias
             </a>
-            </h5>
+            </h6>
+        </section>
         </footer>
     </body>
 </html>

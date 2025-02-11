@@ -1,0 +1,79 @@
+body
+{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background: rgb(131, 199, 219);
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    text-align: right;
+    line-height: 50px;
+    color: rgb(168, 45, 45);
+    border-bottom: 3px;
+}
+
+header .Fotoperfil
+{
+    background-image: url('https://lh3.googleusercontent.com/ogw/AF2bZyhQ48_0QGzgPEXG4nX_0KMmjNCEagihZF2UjR46ZDpuow=s64-c-mo');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    margin-left: 10;
+    width: 25px;
+    height: 25px;
+}
+
+header .GoogleApps
+{
+    background-image: url('https://cdn-icons-png.flaticon.com/512/80/80975.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+header .GImagenes
+{
+    background-position: center;
+}
+
+header .Gmail
+{
+    background-position: center;
+}
+
+nav ul li
+{
+    float: right;
+    list-style: none;
+    margin: 5px;
+    text-align: right;
+    line-height: 50px;
+}
+
+#content
+{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: rgb(134, 211, 210);
+    padding: 40px;
+}
+
+#footer1
+{
+    background: rgb(54, 141, 141);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
