@@ -49,15 +49,12 @@ header .GImagenes{
 header .Gmail{
     background-position: center;
 }
-+/
-
-/*Sube el header hasta arriba sin dejar espacio en blanco */
 
 nav {
     display: block;
 }
 
-nav ul {
+nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -71,7 +68,7 @@ nav ul li{
     line-height: 50px;
     height: 50px;
 }
-
+/*
 #content{
     float: left;
     width: calc(80% - 80px);
@@ -79,8 +76,8 @@ nav ul li{
     background: rgb(134, 211, 210);
     padding: 40px;
 }
-
-nav ul li a {
+*/
+nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -89,6 +86,54 @@ nav ul li a {
     height: 50px;
     line-height: 50px;
   }
+
+main .LogoGoogle{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Barrabusqueda{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 600px;
+}
+
+.Barrabusqueda input{
+    max-width: 600px;
+    border: 1px solid rgba(189, 189, 189, 0.596);
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 5px 153px; /* Espacio entre LogoGoogle y largo de barra */
+    font-size: 18px;
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    box-shadow: 0 2px 5px rgba(189, 189, 189, 0.979); /*Para sombrear la barra de busqueda */
+}
+
+.BuscarG input{
+    font-family: Arial, sans-serif;
+    color: rgb(29, 29, 29);
+    background-color: #f8f9fa;
+    border:1px #f8f9fa;
+    padding: 8px; /* Ancho del fondo de los inputs */
+    margin: 11px 4px; /*Espacio entre las barras */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.Suerte input{
+    font-family: Arial, sans-serif;
+    color: rgb(29, 29, 29);
+    background-color: #f8f9fa;
+    border:1px #f8f9fa;
+    padding: 8px; /* Ancho del fondo de los inputs */
+    margin: 11px 4px; /*Espacio entre las barras */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
 
 #footer1{
     background: rgb(54, 141, 141);
