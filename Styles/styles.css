@@ -70,8 +70,8 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: black;
-    font-size: 14px;
+    color: rgb(68, 68, 68);
+    font-size: 13px;
     display: inline-block;
     vertical-align: middle;
     height: 50px;
@@ -101,7 +101,8 @@ main .LogoGoogle{
     max-width: 600px;
     border: 1px solid rgba(189, 189, 189, 0.596);
     border-radius: 30px; /* Bordes redondeados */
-    padding: 5px 153px; /* Espacio entre LogoGoogle y largo de barra */
+    padding: 5px 190px; /* Espacio entre LogoGoogle y largo de barra */
+    height: 35px;
     font-size: 18px;
     outline: none;
     transition: box-shadow 0.2s ease-in-out;
@@ -118,7 +119,9 @@ main .LogoGoogle{
     margin: 11px 4px; /*Espacio entre las barras */
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .Suerte input{
@@ -162,7 +165,6 @@ footer a{
 
 footer .footerleft{
     justify-content: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer .footeright{
