@@ -136,6 +136,12 @@ main .LogoGoogle{
     align-items: center;
 }
 
+/*Para colocar "BuscarG" y "Suerte" en forma horizontal y uno al lado del otro"*/
+.BotonesBusySue{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     background: rgba(240, 243, 243, 0.932);
     width: 100%;
